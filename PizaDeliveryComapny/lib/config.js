@@ -1,24 +1,15 @@
-/* 
-create and export configuration variable
-
-*/
-
-//container for all the enviornments
+var enviornments = {};
 
 var enviornments = {};
 
 enviornments.staging = {
-  httpport: 3000,
-  httpsport: 3001,
-  envName: "staging"
+  httpport: 3000
 };
 
 // production enviornment
 
 enviornments.production = {
-  httpport: 5000,
-  httpsport: 5001,
-  envName: "production"
+  httpport: 5000
 };
 
 //Determin which env passed via command line argument
